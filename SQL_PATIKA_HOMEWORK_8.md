@@ -35,22 +35,22 @@
 	birthday  = '2004-10-11',
 	email = 'glzrdrn@gmail.com'
 	Where id = 50;`
-4. `DELETE FROM employee
-WHERE name ='Abidin'
-RETURNING*;
+4. 	`DELETE FROM employee
+	WHERE name ='Abidin'
+	RETURNING*;
 
-DELETE FROM employee
-WHERE id=33
-RETURNING*;
+	DELETE FROM employee
+	WHERE id=33
+	RETURNING*;
 
-DELETE FROM employee
-WHERE email = 'glzrdrn@gmail.com'
-RETURNING*;
+	DELETE FROM employee
+	WHERE email = 'glzrdrn@gmail.com'
+	RETURNING*;
 
-DELETE FROM employee
-WHERE id=50
-RETURNING*;
+	DELETE FROM employee
+	WHERE id=50
+	RETURNING*;
 
-DELETE FROM employee
-WHERE birtday ='1999-11-11'
-RETURNING*;
+	DELETE FROM employee
+	WHERE birtday ='1999-11-11'
+	RETURNING*;
